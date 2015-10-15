@@ -10,6 +10,11 @@ import Cocoa
 
 class MainWindowController: NSWindowController {
 
+    @IBOutlet weak var textField: NSTextField!
+    
+    @IBAction func generatePassword(sender: AnyObject) {
+    }
+    
     override func windowDidLoad() {
         super.windowDidLoad()
 
