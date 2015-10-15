@@ -18,6 +18,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         
         let mainWindowController = MainWindowController(windowNibName: "MainWindowController")
         
+        mainWindowController.showWindow(self)
+        
         self.mainWindowController = mainWindowController
         
     }

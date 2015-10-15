@@ -12,12 +12,11 @@ class MainWindowController: NSWindowController {
 
     @IBOutlet weak var textField: NSTextField!
     
-    @IBAction func generatePassword(sender: AnyObject) {
-        
-        textField.stringValue = "button clicked"
-        
-    }
     
+    @IBAction func genPass(sender: AnyObject) {
+        
+        textField.stringValue = "Button Clicked"
+    }
     override func windowDidLoad() {
         super.windowDidLoad()
 
