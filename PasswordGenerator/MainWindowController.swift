@@ -13,6 +13,9 @@ class MainWindowController: NSWindowController {
     @IBOutlet weak var textField: NSTextField!
     
     @IBAction func generatePassword(sender: AnyObject) {
+        
+        textField.stringValue = "button clicked"
+        
     }
     
     override func windowDidLoad() {
